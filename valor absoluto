@@ -1,0 +1,28 @@
+programacion
+=======// Valor Absoluto.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main()
+
+
+
+{
+	int numero;
+	cout<< "Ingrese numero: ";
+	cin>>numero;
+	if (numero >=0)
+		cout <<"El valor absoluto es: "<<numero;
+	else 
+		cout <<"El valor absoluto es: "<<-1*numero;
+	getch();
+
+
+
+}
+=====
