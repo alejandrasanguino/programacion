@@ -1,0 +1,22 @@
+// gobal.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main ()
+
+{
+	int I,N;
+	cout<<"increse N: " ;
+	cin>>N;
+		for (I=2; I<=N ;I=I+2)
+			cout<<I<<"\t";
+		
+		I=1;
+		cout<<"\N" ; 
+		while(I<=N)
+		{
