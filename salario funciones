@@ -1,0 +1,24 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+float calcular_salarioN (float salario,float afp,float iva);
+void main()
+
+{
+float salarioN,salarioB,afp,iva;
+cout<<"ingrese el salario bruto:" ;
+cin>>salriob;
+afp=0.12;
+iva=0.13;
+salarioN=calcular salarioN(salarioB,afp,iva);
+cout<<"el salario neto es:" << salarioN;
+getch();
+
+}
+float calcular_salarioN(float salario,float afp,float iva;
+{
+	float salarioN ;
+	salarioN=salario((afp+iva)*salario);
+	return salarioN
+}
