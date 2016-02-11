@@ -1,0 +1,29 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;
+void main()
+{
+	int a,b;
+	cout << "ingrese un numero:";
+	cin>>a;
+	cout << "ingrese un numero:";
+	cin>>b;
+	if(a>b)
+	{
+		cout<<a;
+	}
+	else
+	{
+		cout<<b;
+	}
+	if (a=b)
+	{
+		cout<<"los numeros son iguales";
+
+	cin>>a;
+
+	}
+
+
+	getch();
+}
